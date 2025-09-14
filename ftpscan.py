@@ -61,7 +61,7 @@ class VulnScan():
     @staticmethod
     def vuln_check(banner):
         try:
-            with open('ftp-vuln.db', 'r') as fp:
+            with open('/opt/ftp-vuln.db', 'r') as fp:
                 print(f"[*] Searching Exploits in the database for banner {banner}")
                 exploit_counter = 0
 
