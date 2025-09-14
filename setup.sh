@@ -16,6 +16,7 @@ else
 		path=$cdir/ftpscan.py
 		sudo ln -s "$path" /usr/bin/ftpscan 
 		chmod +x /usr/bin/ftpscan
+  		mv ftp-vuln.db /opt/
 		echo "Setup Done! now execute ftpscan"
 		ftpscan -h
 	fi 
