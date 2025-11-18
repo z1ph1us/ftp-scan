@@ -115,9 +115,6 @@ Please keep changes small and well-documented.
 
 ---
 
-## License
-This project is released under the **MIT License**. See `LICENSE` for details.
-
 ---
 
 ## Author & Contact
